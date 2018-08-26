@@ -1,14 +1,22 @@
 {
-  "name": "EspañaGaming BOT",
+  "name": "Espa-aGaming-BOT",
   "version": "1.0.0",
-  "description": "Bot para el Servidor de Discord de EspañaGaming",
-  "main": "index.js",
+  "description": "Bot del Servidor de Discord EspañaGaming",
+  "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiderpoer/Espa-aGaming-BOT.git"
   },
   "keywords": [],
-  "author": "Raiderpoer",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raiderpoer/Espa-aGaming-BOT/issues"
+  },
+  "homepage": "https://github.com/Raiderpoer/Espa-aGaming-BOT#readme",
   "dependencies": {
     "discord.js": "^11.4.2"
   }
