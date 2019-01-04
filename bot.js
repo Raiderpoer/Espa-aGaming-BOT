@@ -22,4 +22,7 @@ client.on("message", (message) => {
     message.channel.send("Viva!!");
   }
 });
+bot.on('guildMemberAdd', member => {
+    member.guild.channels.get('channelID').send("Bienvenido"); 
+});
 client.login(process.env.BOT_TOKEN);
