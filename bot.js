@@ -23,6 +23,6 @@ client.on("message", (message) => {
   }
 });
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('483436803647340545').send("Bienvenido"); 
+    member.guild.channels.get('483436803647340545').send("@" + memberTag + " se ha unido al servidor!"); 
 });
 client.login(process.env.BOT_TOKEN);
