@@ -24,6 +24,6 @@ client.on("message", (message) => {
 });
 client.on('guildMemberAdd', member => {
 	let memberTag = member.user.tag;
-    member.guild.channels.get('483436803647340545').send("@" + memberTag + " se ha unido al servidor!"); 
+    member.guild.channels.get('483436803647340545').send("@" + member.id + " se ha unido al servidor!"); 
 });
 client.login(process.env.BOT_TOKEN);
