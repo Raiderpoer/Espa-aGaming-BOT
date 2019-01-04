@@ -22,4 +22,8 @@ client.on("message", (message) => {
     message.channel.send("Viva!!");
   }
 });
+client.on('guildMemberAdd', member => {
+	let memberTag = member.user.tag;
+    member.guild.channels.get('480936541968138250').send("Hey <@" + member.id + ">, bienvenid@ a **EspañaGaming** <:tada:530052691020218368><:hugging:530052691020218368> !"); 
+});
 client.login(process.env.BOT_TOKEN);

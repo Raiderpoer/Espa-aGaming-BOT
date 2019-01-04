@@ -1,6 +1,6 @@
 {
   "name": "Espa-aGaming-BOT",
-  "version": "1.0.0",
+  "version": "dev1.0.1",
   "description": "Bot del Servidor de Discord EspañaGaming",
   "main": "bot.js",
   "scripts": {
