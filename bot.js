@@ -25,4 +25,5 @@ client.on('message', message => {
 
 })
 
-bot.user.setGame('¡Bienvenido a EspañaGaming!');
+client.user.setStatus('dnd');
+client.user.setGame('¡Bienvenido a EspañaGaming!')
