@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
+client.user.setStatus('dnd');
+client.user.setGame('¡Bienvenido a EspañaGaming!');
 
 client.on('ready', () => console.log('Iniciado!'));
 
@@ -24,6 +26,3 @@ client.on('message', message => {
     }
 
 })
-
-client.user.setStatus('dnd')
-client.user.setGame('¡Bienvenido a EspañaGaming!')
