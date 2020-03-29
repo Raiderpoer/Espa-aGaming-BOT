@@ -25,5 +25,5 @@ client.on('message', message => {
 
 })
 
-client.user.setStatus('dnd');
+client.user.setStatus('dnd')
 client.user.setGame('¡Bienvenido a EspañaGaming!')
