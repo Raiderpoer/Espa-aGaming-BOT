@@ -24,3 +24,6 @@ client.on('message', message => {
     }
 
 })
+
+bot.user.setStatus('Online');
+bot.user.setGame('¡Bienvenido a EspañaGaming!');
