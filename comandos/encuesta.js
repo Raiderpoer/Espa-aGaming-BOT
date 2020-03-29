@@ -14,8 +14,8 @@ exports.run = async (client, message, args, tools) => {
         .setTitle(`Encuesta creada por ${message.author.username}`);
 
     let msg = await message.channel.send(embed);
-    await msg.react(':white_check_mark:');
-    await msg.react(':x:');
+    await msg.react('✅');
+    await msg.react('❌');
 
     message.delete({timeout: 1000});
 }
