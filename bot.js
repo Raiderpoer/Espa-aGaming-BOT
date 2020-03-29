@@ -1,11 +1,10 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+client.user.setActivity('Test', { type: 'PLAYING'});
 client.login(process.env.BOT_TOKEN);
 
 
 client.on('ready', () => console.log('Iniciado!'));
-
-client.user.setStatus('dnd');
 
 const prefix = '!';
 
