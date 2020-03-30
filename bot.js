@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
-client.user.setPresence({ activity: { name: 'test' }, status: 'online'});
 
 
 client.on('ready', () => console.log('Iniciado!'));
