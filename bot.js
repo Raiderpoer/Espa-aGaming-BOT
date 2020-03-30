@@ -5,6 +5,7 @@ client.user.setPresence({ activity: { name: 'test' }, status: 'online'});
 
 
 client.on('ready', () => console.log('Iniciado!'));
+client.user.setPresence({ activity: { name: 'test' }, status: 'online'});
 
 const prefix = '!';
 
