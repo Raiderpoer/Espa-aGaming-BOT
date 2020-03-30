@@ -3,9 +3,11 @@ const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
 
 
-client.on('ready', () => console.log('Iniciado!'));
-client.user.setPresence({ activity: { name: 'test' }, status: 'online'});
+client.on('ready', () => {
+    console.log('Iniciado!');
+    client.user.setPresence({ activity: { name: 'test' }, status: 'dnd'});
 
+});
 const prefix = '!';
 
 client.on('message', message => {
