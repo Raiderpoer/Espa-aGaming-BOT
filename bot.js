@@ -5,7 +5,7 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('ready', () => {
     console.log('Iniciado!');
-    client.user.setPresence({ activity: { name: 'test' }, status: 'dnd'});
+    client.user.setPresence({ activity: { name: '¡Bienvenido a EspañaGaming!' }, status: 'dnd'});
 
 });
 const prefix = '!';
